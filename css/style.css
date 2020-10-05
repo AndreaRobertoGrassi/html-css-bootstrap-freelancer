@@ -1,16 +1,32 @@
 /* REGOLE GENERALI */
 
 /* regole di debug */
-[class*="col-"] {
-  min-height: 100px;
-  /* background-color: red; */
-  border: 1px solid  black;
-}
+  [class*="col-"] {
+    min-height: 100px;
+    /* background-color: red; */
+    border: 1px solid  black;
+  }
 
+  
 /* HEADER */
-.background_blue{
-  background-color: blue;
-}
-.background_lighgreen{
-  background-color: lightgreen;
-}
+  nav{
+    background-color: blue;
+  }
+  header section{
+    background-color: lightgreen;
+  }
+
+/* MAIN */
+  .xs_img{
+    background-color: red;
+  }
+  .xs_about{
+    background-color: lightgreen
+  }
+
+  footer section:first-child{
+    background-color: blue;
+  }
+  footer section:nth-child(2){
+    background-color: lightblue;
+  }
