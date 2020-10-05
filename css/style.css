@@ -1,0 +1,16 @@
+/* REGOLE GENERALI */
+
+/* regole di debug */
+[class*="col-"] {
+  min-height: 100px;
+  /* background-color: red; */
+  border: 1px solid  black;
+}
+
+/* HEADER */
+.background_blue{
+  background-color: blue;
+}
+.background_lighgreen{
+  background-color: lightgreen;
+}
